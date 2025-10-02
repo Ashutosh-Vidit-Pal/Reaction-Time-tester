@@ -18,6 +18,14 @@ A lightweight, interactive responsive web application that measures and tests yo
   <li>View your reaction time and statistics</li>
   <li>Manage your data with the clear history option</li>
 </ul>
+<br>
+🚀 Features
+<ul>
+  <li>⚡ Real-time Testing - Measure reaction times in milliseconds</li>
+  <li>📊 Performance Tracking - Track best times and average scores</li>
+  <li>🎮 Multiple Attempts - Run tests to calculate your average score</li>
+  <li>📱 Responsive Design - Works on desktop and mobile devices</li>
+</ul>
 
 
 
