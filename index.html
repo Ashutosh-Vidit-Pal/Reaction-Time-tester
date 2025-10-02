@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Reaction Time Tester</h1>
+            <p>Test how fast you can react!</p>
+        </div>
+
+        <div id="testArea" class="test-area ready">
+            <div class="content">
+                <div class="emoji">👆</div>
+                <h2 id="mainText">Click to Start</h2>
+                <p id="subText">Get ready to test your reflexes</p>
+                <button id="tryAgainBtn" class="try-again-btn" style="display: none;">Try Again</button>
+            </div>
+        </div>
+
+        <div id="statsPanel" class="stats-panel" style="display: none;">
+            <div class="stats-header">
+                <h3>Your Stats</h3>
+                <button id="clearBtn" class="clear-btn">Clear History</button>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="attemptsCount">0</div>
+                    <div class="stat-label">Attempts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value best" id="bestTime">0ms</div>
+                    <div class="stat-label">Best</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value avg" id="avgTime">0ms</div>
+                    <div class="stat-label">Average</div>
+                </div>
+            </div>
+
+            <div class="history">
+                <h4>Recent Attempts</h4>
+                <div id="attemptsList" class="attempts-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
